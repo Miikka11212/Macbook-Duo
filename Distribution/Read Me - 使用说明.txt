@@ -1,0 +1,56 @@
+MacBook Duo · 1.0.0 测试版 / Preview
+让界面，随屏幕一起展开。
+
+系统要求
+• Apple Silicon（M 系列）Mac，macOS 14 或更新版本；不支持 Intel Mac。
+• 真实开合效果需要 MacBook 提供兼容的铰链角度传感器。
+  并非所有型号都已验证；无传感器时仍可导入截图、手动预览。
+
+安装
+1. 将 MacBook Duo.app 拖到旁边的 Applications 文件夹。
+2. 从“应用程序”打开 MacBook Duo，然后推出这个磁盘镜像。
+3. 本测试版采用临时代码签名，尚未获得 Developer ID 签名和 Apple 公证。
+   若提示无法验证开发者或未公证，在确认文件来自可信发送者后：
+   先尝试打开一次，再到 系统设置 → 隐私与安全性 → 仍要打开。
+   无需关闭整个系统的安全检查。
+
+开始使用
+• 可直接使用示例桌面，或导入自己的 PNG、JPEG、HEIC、TIFF 截图。
+• 手动模拟：拖动角度滑块，预览从闭合到展开的效果。
+• 把屏幕打开到日常使用的位置，按 ⌘⇧K 保存真实铰链展开终点。
+• 点击“开启实时桌面”，根据 macOS 提示授予屏幕录制权限。
+  权限在 系统设置 → 隐私与安全性 → 屏幕与系统音频录制
+  （部分版本称“屏幕录制”）中管理；若系统要求，请退出并重新打开。
+• 保持“开盖后自动恢复”开启，并让应用在菜单栏运行。
+  合盖暂停，唤醒并解锁后自动恢复。安全锁屏界面上不显示效果。
+• 可以关闭设置窗口；退出应用后，需重新打开才能使用。
+• 菜单栏图标和 Dock 右键菜单均可打开设置。
+
+快捷键
+⌘⇧G    开关实时效果
+⌘⇧Esc  停止效果并返回设置，同时取消本次自动恢复
+⌘⇧K    保存当前真实铰链角度为展开终点
+⌘H     截图全屏调试中，隐藏或恢复控制面板
+
+说明
+• 黑边柔和度、色散强度、毛玻璃和透视均可调整。
+• 实时效果仅作用于内置屏幕。展开到保存终点后恢复正常桌面。
+• 动画中画面经过透视变换，建议展开完成后再点击操作。
+• 不录音、不上传、不保存实时桌面画面。
+• 此安装包不包含作者的截图、个人设置或录屏授权。
+• 独立视觉实验，与 Apple 无隶属关系。不同 MacBook 型号仍需实机测试。
+
+English quick start
+Requires an Apple Silicon Mac and macOS 14+. Intel Macs are not supported.
+Live lid tracking requires a compatible MacBook hinge sensor; hardware support
+has not been verified across all models. Manual screenshot preview is available.
+
+Drag MacBook Duo.app into Applications, launch it there, then eject this image.
+This preview uses an ad hoc signature and is not Apple-notarized. If macOS blocks
+an unidentified/unnotarized developer, verify the source, try opening once, then
+use System Settings > Privacy & Security > Open Anyway. Do not disable Gatekeeper.
+
+Enable the live desktop effect and grant Screen Recording access when prompted.
+Restart the app if macOS requests it. Save your normal open angle with Cmd-Shift-K.
+Keep the app running in the menu bar to resume after sleep and unlock.
+Cmd-Shift-G toggles live mode; Cmd-Shift-Escape stops it and returns to Settings.

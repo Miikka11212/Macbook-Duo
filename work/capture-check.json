@@ -1,0 +1,26 @@
+{
+  "passed" : true,
+  "rounds" : [
+    {
+      "excludedMarkerFraction" : 0,
+      "onscreenQueryFoundSelf" : false,
+      "passed" : true,
+      "round" : 1,
+      "unfilteredMarkerFraction" : 1
+    },
+    {
+      "excludedMarkerFraction" : 0,
+      "onscreenQueryFoundSelf" : false,
+      "passed" : true,
+      "round" : 2,
+      "unfilteredMarkerFraction" : 1
+    },
+    {
+      "excludedMarkerFraction" : 0,
+      "onscreenQueryFoundSelf" : false,
+      "passed" : true,
+      "round" : 3,
+      "unfilteredMarkerFraction" : 1
+    }
+  ]
+}
